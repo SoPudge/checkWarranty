@@ -11,11 +11,11 @@ https://support.hp.com/hp-pps-services/os/multiWarranty?ssid=
 ```
 
 **1. cookies**
-Using cookies from first url(**import**)
+- Using cookies from first url(**import**)
 
 **2. headers**
 ```html
-Content-Type"="application/json
+"Content-Type"="application/json"
 ```
 **3. JSON Body like below**
 ```json
