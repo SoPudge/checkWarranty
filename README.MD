@@ -9,11 +9,15 @@ Fill the mwsid into this url and post the JSON body(format like below) to url li
 ```html
 https://support.hp.com/hp-pps-services/os/multiWarranty?ssid=
 ```
-1. headers
+
+**1. cookies**
+Using cookies from first url(**import**)
+
+**2. headers**
 ```html
 Content-Type"="application/json
 ```
-1. JSON Body like below
+**3. JSON Body like below**
 ```json
 {
     "obligationServiceRequests":  [
@@ -50,4 +54,4 @@ Content-Type"="application/json
 }
 ```
 
-1. You will have a JSON respond about the warranty status
+You will have a JSON respond about the warranty status
